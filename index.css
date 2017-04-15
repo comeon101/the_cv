@@ -52,8 +52,9 @@ nav a:not(#prj) {
 }
 
 nav a#prj {
-	border: 1px dashed rgba(255, 255, 255, .2);
+	border: 1px dashed rgba(255, 255, 255, .5);
 	font-weight: normal;
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
 	color: rgba(255, 255, 255, .9);
 }
 
@@ -79,7 +80,10 @@ nav a:not(#prj):hover {
 .main .section {
 	border-top: 2px solid #FFF;
 	box-shadow: inset 0 .75em 1em -1em rgba(0, 0, 0, 0.1);
-	background: rgba(255, 255, 255, 0.95);
+	background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("img/bg_blur.jpeg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
 	vertical-align: top;
 	margin: 2em 0;
 	padding: 1em;
@@ -117,8 +121,6 @@ nav a:not(#prj):hover {
 	font-size: .925em;
 	display: inline-block;
 	outline: 1px solid rgba(230, 126, 34, .1);
-	/*box-shadow: 0 0 .3em rgba(230, 126, 34, .3);*/
-	/*background-color: rgba(230, 126, 34, .05);*/
 	background: #FFF;
 	box-shadow: 0 0 .25em 0 rgba(0, 0, 0, 0.2);
 	margin: .25em .35em;
@@ -218,7 +220,7 @@ nav a:not(#prj):hover {
 .main #webdev #integer td:nth-of-type(1) span:hover .information {
 	opacity: 1;
 	visibility: visible;
-	background-color: rgba(255, 255, 255, .99);
+	background-color: rgba(255, 255, 255, .975);
 	border: 1px solid rgba(0, 0, 0, 0.25);
 	padding: 2em 1.5em 1em 1.5em;
 	box-shadow: 0 0 .25em rgba(0, 0, 0, 0.2);
