@@ -52,7 +52,7 @@ nav a:not(#prj) {
 }
 
 nav a#prj {
-	border: 1px dashed rgba(255, 255, 255, .5);
+	border: 1px dashed rgba(255, 255, 255, .8);
 	font-weight: normal;
 	text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
 	color: rgba(255, 255, 255, .9);
